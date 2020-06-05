@@ -1,0 +1,127 @@
+/*---------------------------------*/
+/* VARIABLES
+/*---------------------------------*/
+/*bg-primary*/
+/*bg-secondary*/
+/*bg-warning*/
+/*---------------------------------*/
+/* REUSABLES
+/*---------------------------------*/
+.p-style1 {
+  width: 70%;
+  margin-left: 15%; }
+
+/*---------------------------------*/
+/* NAVBAR
+/*---------------------------------*/
+.navbar {
+  border-bottom: 3px solid #2b335c; }
+
+.navbar .nav-link {
+  font-size: 1rem;
+  text-transform: uppercase; }
+
+.logo-font {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #2b335c; }
+
+/*---------------------------------*/
+/* HEADER / HERO
+/*---------------------------------*/
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero2.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 37.5rem; }
+
+.heading-block {
+  color: #fff;
+  margin-top: 6rem; }
+
+.heading-features {
+  color: #fff; }
+
+.heading-features .far {
+  color: #e88a60; }
+
+.form-block {
+  margin-top: 6rem;
+  background-color: #fff;
+  opacity: 0.9; }
+
+/*---------------------------------*/
+/* FEATURES
+/*---------------------------------*/
+#features .fas {
+  color: #e88a60; }
+
+/*---------------------------------*/
+/* COMPANIES
+/*---------------------------------*/
+#companies .img-style {
+  width: 16rem;
+  height: 4.2rem;
+  display: flex; }
+
+/*---------------------------------*/
+/* HOW IT WORKS
+/*---------------------------------*/
+#works .works-img {
+  background: url("../img/howitworks1.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.works-step .works-step-number {
+  color: #e88a60;
+  border: 2px solid #e88a60;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  padding: 3px;
+  font-size: 150%;
+  margin-right: 1.5rem; }
+
+/*---------------------------------*/
+/* TESTIMONIALS
+/*---------------------------------*/
+/*
+blockquote:before {
+  content: "\201C";
+  font-size: 400%;
+  display: block;
+  position: absolute;
+  top: -3rem;
+  left: -1rem;
+  color: $second-color;
+}*/
+.pq-style {
+  width: 85%;
+  margin-right: 15%; }
+
+cite img {
+  height: 2rem;
+  border-radius: 50%;
+  vertical-align: middle;
+  display: inline !important;
+  margin-left: 5px; }
+
+.slick-prev:before,
+.slick-next:before {
+  color: #e88a60 !important; }
+
+/*---------------------------------*/
+/* CONTACT
+/*---------------------------------*/
+.form-width {
+  width: 70%;
+  margin-left: 15%; }
+
+/*---------------------------------*/
+/* FOOTER
+/*---------------------------------*/
+.footer-style {
+  font-size: 0.9rem; }
